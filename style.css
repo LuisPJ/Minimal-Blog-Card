@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fbf9f9ff;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+}
+
+.contenedor {
+    background-color: #ffffff;
+    width: 368px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 164px;
+    padding: 16px 16px 20px;
+}
+
+.imagen-superior {
+    display: block;
+    width: 100%;
+    height: 152px;
+    object-fit: cover;
+    object-position: center;
+    margin-bottom: 16px;
+}
+
+.etiqueta {
+    background-color: rgba(128, 0, 128, 0.5);
+    color: #800080;
+    height: 16px;
+    width: auto;
+    display: inline-block;
+    padding: 0 10px;
+    margin-bottom: 16px;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 16px;
+    border-radius: 3px;
+}
+
+.titulo {
+    color: #000000;
+    font-weight: bold;
+    font-size: 24px;
+    margin-top: 0;
+    margin-bottom: 16px;
+    text-align: left;
+}
+
+.descripcion {
+    color: #666666;
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: left;
+    margin: 0;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #d0d0d0;
+    padding-bottom: 20px;
+}
+
+.firma {
+    color: #666666;
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: left;
+    margin: 0;
+    margin-top: 20px;
+}
